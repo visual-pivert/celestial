@@ -1,0 +1,42 @@
+---
+import Header from "../components/Header"
+import BaseHead from "../components/BaseHead.astro"
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<BaseHead title="404" description="Page not found"/>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-family: sans-serif;
+      background: #fff;
+      color: #000;
+    }
+    h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    p {
+      margin: 0.5rem 0 1.5rem;
+      color: #555;
+    }
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>404</h1>
+  <p>Page not found</p>
+  <a href="/">← Retour</a>
+</body>
+</html>
+
